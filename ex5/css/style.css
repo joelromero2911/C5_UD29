@@ -1,0 +1,6 @@
+ol.letters {
+    list-style-type: lower-alpha;
+}
+ol.romans {
+    list-style-type: upper-roman;
+}
