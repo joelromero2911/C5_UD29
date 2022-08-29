@@ -1,0 +1,22 @@
+div{
+    padding: 10px;
+}
+div:nth-child(1), div:nth-child(3){
+    background-color: #a4d3ff;
+    border: blue 1px solid;
+    height: 80px;
+    width: 200px;
+    background-image: url(../images/f01.png), url(../images/f02.png), url(../images/f03.png);
+    background-repeat: repeat-x, no-repeat, repeat-x;
+    background-position: bottom, left bottom, left top;
+}
+div:nth-child(2){
+    background-color: #a4d3ff;
+    border: red 1px solid;
+    margin: 20px;
+    height: 380px;
+    width: 400px;
+    background-image: url(../images/f01.png), url(../images/f02.png), url(../images/f03.png);
+    background-repeat: repeat-x, no-repeat, repeat-x;
+    background-position: bottom, left bottom, left top;
+}
