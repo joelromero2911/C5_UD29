@@ -1,0 +1,6 @@
+table, th, td{
+    border: black 1px solid;
+}
+tr:nth-child(3){
+    font-weight: bold;
+}
